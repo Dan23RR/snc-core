@@ -1,0 +1,51 @@
+# Build / dist
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Benchmark caches & artifacts
+benchmarks/candidates_cache*.jsonl
+benchmarks/humaneval.jsonl
+benchmarks/bench_*.csv
+benchmarks/*.log
+
+# OS
+Thumbs.db
+
+# LaTeX intermediates (paper)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk

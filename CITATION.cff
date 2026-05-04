@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the companion paper."
+type: software
+title: "snc-core: Behavioral Trust Clustering for production LLMs"
+abstract: >-
+  A model-agnostic governance layer that wraps any decoder-only LLM and reduces
+  hallucination rate at inference time without retraining. Composes self-reported
+  confidence, behavioral clustering of K stochastic samples, and a closed-form
+  thermodynamic trust score. Reduces hallucination rate by 52% on the official
+  HumanEval benchmark with Qwen2.5-Coder-7B at the conservative threshold.
+authors:
+  - family-names: Culotta
+    given-names: Daniel
+    email: daniel.culotta@gmail.com
+    country: IT
+version: 0.4.0
+date-released: "2026-05-04"
+license: MIT
+repository-code: "https://github.com/dculotta/snc-core"
+url: "https://github.com/dculotta/snc-core"
+keywords:
+  - LLM
+  - hallucination mitigation
+  - trust calibration
+  - selective prediction
+  - abstention
+  - behavioral clustering
+  - HumanEval
+  - regulated AI
+preferred-citation:
+  type: article
+  title: "Behavioral Trust Clustering: A Thermodynamic Governance Layer for Production LLMs"
+  authors:
+    - family-names: Culotta
+      given-names: Daniel
+  year: 2026
+  doi: "10.5281/zenodo.PLACEHOLDER"
+  url: "https://doi.org/10.5281/zenodo.PLACEHOLDER"

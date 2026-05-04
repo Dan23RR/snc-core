@@ -1,0 +1,36 @@
+{
+  "title": "Behavioral Trust Clustering: A Thermodynamic Governance Layer for Production LLMs",
+  "description": "<p>A model-agnostic, retraining-free inference-time governance layer that reduces hallucination rate by 52% relative on the official HumanEval benchmark with Qwen2.5-Coder-7B (16.5% to 7.8%, z = 2.12, p &lt; 0.05) at 70% coverage and 92.17% net precision. The method composes (i) self-reported confidence elicited via a calibration-aware system prompt, (ii) semantic equivalence among K stochastically sampled candidates computed by clustering on their executable behavior, and (iii) a closed-form trust score derived from a thermodynamic analogy that admits an exact phase diagram. Targeted at regulated industries (banking, healthcare, legal compliance).</p><p>The repository contains the paper PDF, the snc-core Python package (v0.4.0, MIT licensed), the full HumanEval evaluation harness, and the candidate cache for exact replication of the threshold sweeps.</p>",
+  "creators": [
+    {
+      "name": "Culotta, Daniel",
+      "affiliation": "Independent researcher, Italy",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "Large Language Models",
+    "hallucination mitigation",
+    "trust calibration",
+    "selective prediction",
+    "abstention",
+    "behavioral clustering",
+    "thermodynamic phase diagram",
+    "HumanEval",
+    "regulated AI",
+    "Qwen"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "communities": [],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dculotta/snc-core",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Companion paper for the snc-core Python package (v0.4.0, MIT licensed). All experiments reproducible from the included scripts and candidate cache."
+}

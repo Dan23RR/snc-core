@@ -1,0 +1,24 @@
+% Preamble for the snc-core paper PDF
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\setlist{topsep=2pt,partopsep=0pt,parsep=2pt,itemsep=2pt}
+\titlespacing\section{0pt}{14pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{10pt plus 3pt minus 2pt}{4pt plus 1pt minus 1pt}
+\linespread{1.10}
+\setlength{\parskip}{4pt plus 1pt minus 1pt}
+
+\hypersetup{
+    pdftitle={Behavioral Trust Clustering: A Thermodynamic Governance Layer for Production LLMs},
+    pdfauthor={Daniel Culotta},
+    pdfsubject={Hallucination mitigation in large language models},
+    pdfkeywords={LLM, hallucination, trust calibration, abstention, behavioral clustering, HumanEval}
+}

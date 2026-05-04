@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snc-core"
+version = "0.4.0"
+description = "Behavioral Trust Clustering: a thermodynamic governance layer for production LLMs"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Daniel Culotta", email = "daniel.culotta@gmail.com"}]
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["llm", "hallucination", "trust", "calibration", "governance", "abstention"]
+dependencies = []  # stdlib only — backend adapters import optionally
+
+[project.optional-dependencies]
+ollama = []  # ollama backend uses urllib (stdlib)
+openai = ["openai>=1.0"]
+test = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/dculotta/snc-core"
+Documentation = "https://github.com/dculotta/snc-core#readme"
+Repository = "https://github.com/dculotta/snc-core"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+snc_core = ["py.typed"]
