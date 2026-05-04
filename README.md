@@ -3,7 +3,7 @@
 [![Tests](https://github.com/dculotta/snc-core/actions/workflows/test.yml/badge.svg)](https://github.com/dculotta/snc-core/actions/workflows/test.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20028123.svg)](https://doi.org/10.5281/zenodo.20028123)
 
 **Behavioral Trust Clustering** — a thermodynamic governance layer for production language models.
 
@@ -165,8 +165,8 @@ All experiments use seed 42. The candidate cache is preserved as JSONL for offli
   title  = {Behavioral Trust Clustering: A Thermodynamic Governance Layer for Production LLMs},
   author = {Culotta, Daniel},
   year   = {2026},
-  doi    = {10.5281/zenodo.PLACEHOLDER},
-  url    = {https://doi.org/10.5281/zenodo.PLACEHOLDER}
+  doi    = {10.5281/zenodo.20028123},
+  url    = {https://doi.org/10.5281/zenodo.20028123}
 }
 ```
 
