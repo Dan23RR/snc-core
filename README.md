@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20028123.svg)](https://doi.org/10.5281/zenodo.20028123)
 
-**Behavioral Trust Clustering** — a thermodynamic governance layer for production language models.
+**Behavioral Trust Clustering**  a thermodynamic governance layer for production language models.
 
 `snc-core` wraps any decoder-only LLM with an inference-time governance layer that **reduces the hallucination rate by 52%** on the official HumanEval benchmark with Qwen2.5-Coder-7B (16.5% → 7.8%, $z = 2.12$, $p < 0.05$). The method is model-agnostic, retraining-free, and exposes a single decision threshold $\theta$ that traces an interpretable Pareto frontier between coverage and precision.
 
